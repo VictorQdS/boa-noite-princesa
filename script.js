@@ -41,7 +41,7 @@ musicButton.addEventListener("click", async () => {
       musicButton.textContent = "Pausar musica";
       musicButton.classList.add("playing");
     } catch (error) {
-      musicButton.textContent = "libera os direitos autoraias camilla😭";
+      musicButton.textContent = "Libera os direitos autoraias Camilla😭";
     }
     return;
   }
