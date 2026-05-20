@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boa noite, princesa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <audio id="backgroundMusic" src="shameless.mp3" loop preload="auto"></audio>
+
+  <main class="night-card" aria-label="Mensagem de boa noite">
+    <div class="sky" aria-hidden="true">
+      <span class="moon"></span>
+      <span class="star star-1"></span>
+      <span class="star star-2"></span>
+      <span class="star star-3"></span>
+      <span class="star star-4"></span>
+      <span class="star star-5"></span>
+      <span class="star star-6"></span>
+      <span class="shooting-star"></span>
+    </div>
+
+    <section class="message">
+      <p class="eyebrow">Para a nutricionista mais inteligente</p>
+      <h1>Boa noite, princesa</h1>
+      <p class="text">
+        Que seu sono seja leve. Como n&atilde;o posso estar dormindo com voc&ecirc;,
+        durma com os anjos. Beijos.
+      </p>
+
+      <button class="love-button" id="loveButton" type="button">
+        Abrir carinho
+      </button>
+
+      <button class="music-button" id="musicButton" type="button" aria-label="Tocar musica de fundo">
+        Tocar m&uacute;sica
+      </button>
+
+      <p class="secret-message" id="secretMessage" aria-live="polite">
+        Dorme bem, princesa. Se ningu&eacute;m te falou hoje ainda, voc&ecirc; &eacute; maravilhosa.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
